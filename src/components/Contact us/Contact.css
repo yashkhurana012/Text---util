@@ -1,0 +1,38 @@
+.contact-cont{
+    min-height: calc(100vh - 120.5px);
+    display: flex;
+    justify-content: center;
+}
+
+.contact-cont .contact-details{
+    margin-top: 10rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contact-cont .contact-details h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.contact-cont .contact-details p{
+    margin-bottom: 0.1rem;
+}
+
+
+.light-contact{
+    background: linear-gradient(45deg, rgb(241, 241, 241) 50%, rgb(158, 232, 255) 50%); 
+    color: black;
+}
+
+.dark-contact{
+    background: linear-gradient(45deg, rgb(92, 92, 92) 50%, rgb(27, 27, 27) 50%);
+    color: white;
+}
+
+@media (max-width:600px) {
+    .contact-cont .contact-details{
+        margin-top: 5rem;
+    }
+}
